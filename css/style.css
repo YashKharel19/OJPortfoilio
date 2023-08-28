@@ -546,8 +546,7 @@ img{
 
 }
 
-.nav-menu ul{
-}
+
 
 .nav-menu ul li {
     display: block;
@@ -890,6 +889,12 @@ img{
     margin: 0;
 }
 .about-section .timeline .timeline-item-inner p{
+    font-size: 16px;
+    color: var(--text-black-600);
+    line-height: 26px;
+    margin: 15px 0 0;
+}
+.about-section .timeline .timeline-item-inner li{
     font-size: 16px;
     color: var(--text-black-600);
     line-height: 26px;
