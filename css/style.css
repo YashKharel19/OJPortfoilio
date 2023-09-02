@@ -1487,4 +1487,20 @@ body > div.pp.portfolio-popup.open > div.pp-details.active > div > div.pp-title 
     padding: 0 15px;
 }
 
+@media (max-width: 768px) {
+    .about-section .skills .skill-item {
+      margin-bottom: 20px; /* Add some space between skill items on mobile */
+    }
+  
+    .about-section .skills .skill-item .progress-bar {
+      width: 100%; /* Make progress bars full width on mobile */
+    }
+  
+    .about-section .skills .skill-item .progress-bar span {
+      position: relative; /* Reset the position for the progress text */
+      top: 0;
+      margin-top: 5px; /* Add some space between progress text and bar */
+      text-align: center; /* Center-align progress text */
+    }
+  }
 /***** End contact section *****/
