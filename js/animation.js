@@ -5,7 +5,7 @@ const textArray = [
   "Ojaswi Rijal",
   "Interior Designer",
   "Civil Engineer",
-  "Urban Planner",
+  "Urban Designer",
 ];
 const typingDelay = 200;
 const erasingDelay = 100;
