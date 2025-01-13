@@ -1,587 +1,304 @@
 <!DOCTYPE html>
 <html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <title>Personal Portfolio Website</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <!-- main css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!-- default color css  -->
+    <link rel="stylesheet" href="css/skins/color-1.css" disabled />
+    <link rel="stylesheet" href="css/style-switcher.css" />
+    <!-- theme colors -->
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="color-1"
+      href="css/skins/color-1.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="color-2"
+      href="css/skins/color-2.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="color-3"
+      href="css/skins/color-3.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="color-4"
+      href="css/skins/color-4.css"
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="color-5"
+      href="css/skins/color-5.css"
+      disabled
+    />
+    <!-- fav icon  -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <style>
+      .row {
+        display: flex;
+      }
+      .col-4 {
+        flex: 4;
+        font-weight: bold;
+      }
+      .col-8 {
+        flex: 8;
+      }
+    </style>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>Personal Portfolio Website</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <!-- font awesome -->
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
-  <!-- main css -->
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-  <!-- default color css  -->
-  <link rel="stylesheet" href="css/skins/color-1.css" disabled>
-  <link rel="stylesheet" href="css/style-switcher.css">
-  <!-- theme colors -->
-  <link rel="stylesheet" class="alternate-style" title="color-1" href="css/skins/color-1.css" disabled>
-  <link rel="stylesheet" class="alternate-style" title="color-2" href="css/skins/color-2.css" disabled>
-  <link rel="stylesheet" class="alternate-style" title="color-3" href="css/skins/color-3.css" disabled>
-  <link rel="stylesheet" class="alternate-style" title="color-4" href="css/skins/color-4.css">
-  <link rel="stylesheet" class="alternate-style" title="color-5" href="css/skins/color-5.css" disabled>
-  <!-- fav icon  -->
-  <link rel="shortcut icon" href="favicon.ico">
-</head>
-
-<body class="dark">
-
-  <!-- ========== Start pre loader ========== -->
-  <div class="preloader">
-    <div class="box">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-  </div>
-  <!-- ========== End pre loader ========== -->
-
-  <!-- start header  -->
-  <div class="header">
-    <div class="container">
-      <div class="row justify-content-between">
-        <div class="logo">
-          <a href="index.html">OJ</a>
-        </div>
-        <div class="hamburger-btn outer-shadow hover-in-shadow">
-          <i class="fas fa-bars"></i>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end  -->
-
-  <!-- navigation menu start  -->
-  <nav class="nav-menu">
-    <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
-    <div class="nav-menu-inner">
-      <ul>
-        <li><a href="#home" class="link-item inner-shadow active">Home</a></li>
-        <li><a href="#about" class="link-item outer-shadow hover-in-shadow">About</a></li>
-        <li><a href="#services" class="link-item outer-shadow hover-in-shadow">Services</a></li>
-        <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">Portfolio</a></li>
-        <!-- <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow">Testimonial</a></li> -->
-        <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contact</a></li>
-      </ul>
-    </div>
-    <p class="copyright-text">&copy; 2023 All right reserved to ojaswi rijal</p>
-
-    <div class="fade-out-effect">
-
-    </div>
-  </nav>
-  <!-- end  -->
-
-  <!-- home section start  -->
-  <section class="home-section section active" id="home">
-    <!-- effect wrap -->
-    <div class="effect-wrap">
-      <div class="effect effect-1">
-
-      </div>
-      <div class="effect effect-2">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div class="effect effect-3">
-      </div>
-      <div class="effect effect-4">
-      </div>
-      <div class="effect effect-5">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+  <body class="dark">
+    <!-- ========== Start pre loader ========== -->
+    <div class="preloader">
+      <div class="box">
         <div></div>
         <div></div>
         <div></div>
       </div>
     </div>
-    <!-- end -->
-    <div class="container">
-      <div class="row full-screen align-items-center">
-        <div class="home-text">
-          <p>Hello, </p>
-          <!-- ========== Start typing animation ========== -->
-          <div id="auto-typing-animation">
-            <p>I'm <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+    <!-- ========== End pre loader ========== -->
+
+    <!-- start header  -->
+    <div class="header">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="logo">
+            <a href="index.html">OJ</a>
           </div>
-          <!-- ========== End typing animation ========== -->
-          <h1>Interior Designer & Civil Engineer</h1>
-          <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
-        </div>
-
-        <div class="home-image">
-          <div class="img-box inner-shadow">
-            <img src="./img/profile-pic.png" class="outer-shadow" alt="profile-pic" srcset="">
+          <div class="hamburger-btn outer-shadow hover-in-shadow">
+            <i class="fas fa-bars"></i>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- end -->
+    <!-- end  -->
 
-  <!-- about section  -->
-  <section class="about-section section" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <div class="data-heading">MAIN INFO</div>
-          <h2>About me</h2>
-        </div>
+    <!-- navigation menu start  -->
+    <nav class="nav-menu">
+      <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+      <div class="nav-menu-inner">
+        <ul>
+          <li>
+            <a href="#home" class="link-item inner-shadow active">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="link-item outer-shadow hover-in-shadow"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="#services" class="link-item outer-shadow hover-in-shadow"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="#portfolio" class="link-item outer-shadow hover-in-shadow"
+              >Portfolio</a
+            >
+          </li>
+          <!-- <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow">Testimonial</a></li> -->
+          <li>
+            <a href="#contact" class="link-item outer-shadow hover-in-shadow"
+              >Contact</a
+            >
+          </li>
+        </ul>
       </div>
-      <div class="row">
-        <div class="about-img">
-          <div class="img-box inner-shadow">
-            <img src="./img/profile-pic.png" alt="" class="outer0shadow">
-          </div>
-          <!-- social icons -->
-          <div class="social-links">
+      <p class="copyright-text">
+        &copy; 2023 All right reserved to Ojaswi Rijal
+      </p>
 
-            <a href="https://www.facebook.com/ojaswi.rijal.1" target="_nextTab"
-              class="outer-shadow hover-in-shadow link-card" data-tilt data-tilt-scale="1.1"><i
-                class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/ozaswi/" target="_nextTab" class="outer-shadow hover-in-shadow link-card"
-              data-tilt data-tilt-scale="1.1"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/ojaswi-rijal-5a4bb8153/" target="_nextTab"
-              class="outer-shadow hover-in-shadow link-card" data-tilt data-tilt-scale="1.1"><i
-                class="fab fa-linkedin"></i></a>
-          </div>
+      <div class="fade-out-effect"></div>
+    </nav>
+    <!-- end  -->
+
+    <!-- home section start  -->
+    <section class="home-section section active" id="home">
+      <!-- effect wrap -->
+      <div class="effect-wrap">
+        <div class="effect effect-1"></div>
+        <div class="effect effect-2">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-        <div class="about-info">
-          <p class="about-info-inner">
-            <!-- content will fetch from  "TODO: js/autoTypingAnimation " -->
-          </p>
-          <!-- this is a just demo text  -->
-
-          <!-- <span>Hi, this is a demo name</span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius officia ea ut vonsectetur adipisicing elit. Illo voluptatum iste, tempora rem obcaecati omnis delectus sunt, consequuntur, et ut quasi aperiam assumenda! <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex beatae reprehenderit vero maiores dignissimos error vitae, optio inventore explicabo quia officiis magni delectus? -->
-
-
-          <a href="cv_ojaswi.pdf" class="btn-1 outer-shadow hover-in-shadow" target="next_page">Download CV</a>
-          <a href="ojaswi_portfolio.pdf" class="link-item btn-1 outer-shadow hover-in-shadow">Download Portfolio</a>
-        </div>
-      </div>
-      <!-- about section start -->
-      <div class="row">
-        <div class="about-tabs">
-          <span class="tab-item outer-shadow active" data-target=".skills">skills</span>
-          <span class="tab-item" data-target=".experience">experience</span>
-          <span class="tab-item" data-target=".education">education</span>
+        <div class="effect effect-3"></div>
+        <div class="effect effect-4"></div>
+        <div class="effect effect-5">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </div>
       <!-- end -->
-      <!-- skill section start  -->
-      <div class="row">
-        <div class="skills tab-content active">
-          <!-- skill item -->
-          <div class="row">
-
-            <!-- ========== Start skills ========== -->
-            <div class="skill-item">
-              <p>AUTOCAD</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(70% - 14px)">
-                  <span>70%</span>
-                </div>
-              </div>
+      <div class="container">
+        <div class="row full-screen align-items-center">
+          <div class="home-text">
+            <p>Hello,</p>
+            <!-- ========== Start typing animation ========== -->
+            <div id="auto-typing-animation">
+              <p>
+                I'm <span class="typed-text"></span
+                ><span class="cursor">&nbsp;</span>
+              </p>
             </div>
-
-
-            <div class="skill-item">
-              <p>SKETCHUP</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(80% - 14px);">
-                  <span>100%</span>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="skill-item">
-              <p>V-RAY</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(60% - 14px);">
-                  <span>60%</span>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="skill-item">
-              <p>LUMION</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(30% - 14px);">
-                  <span>100%</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="skill-item">
-              <p>BLUEBEAM</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(30% - 14px);">
-                  <span>30%</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="skill-item">
-              <p>ETABS</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(60% - 14px);">
-                  <span>60%</span>
-                </div>
-              </div>
-            </div>
-            <!-- ========== End skills ========== -->
+            <!-- ========== End typing animation ========== -->
+            <h1>Interior Designer & Civil Engineer</h1>
+            <a
+              href="#about"
+              class="link-item btn-1 outer-shadow hover-in-shadow"
+              >More About Me</a
+            >
           </div>
-          <!-- end -->
-        </div>
-      </div>
-      <!-- end  -->
 
-      <!-- experience  -->
-      <div class="row">
-        <div class="experience tab-content">
-          <div class="row">
-            <div class="timeline">
-              <div class="row">
-                <!-- time line items  -->
-                <div class="timeline-item">
-                  <div class="timeline-item-inner outer-shadow">
-                    <i class="fas fa-briefcase icon"></i>
-                    <span>February 2022- November 2022</span>
-                    <h3>Freelancing</h3>
-                    <h4>Projects</h4>
-                    <p>
-
-                    </p>
-
-                    <ul>
-                      <li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;
-                        Landscaping –Gaurighat
-                      </li>
-
-                      <li>
-                        Landscaping –Naxal
-                      </li>
-
-                      <li>
-                        Interior Design Café-Bhaisepati
-                      </li>
-
-                      <li>
-                        Interior Design Lounge-Maharajgunj
-                      </li>
-                    </ul>
-
-                  </div>
-                </div>
-                <!-- end  -->
-                <!-- time line items  -->
-                <div class="timeline-item">
-                  <div class="timeline-item-inner outer-shadow">
-                    <i class="fas fa-briefcase icon"></i>
-                    <span>April 2021- October 2022</span>
-                    <h3>Site Supervisor</h3>
-                    <h4>Pneumatic Development Pvt. Ltd</h4>
-                    <p>
-                      <em>
-                        Projects
-                      </em>
-
-
-                    </p>
-
-                    <ul>
-                      <li>
-                        Construction of Hotel, Khusibu
-                      </li>
-
-                      <li>
-                        Renovation of Residential House, Lazimpat
-                      </li>
-
-                      <li>
-                        Interior and external design and construction, Budanilkantha
-                      </li>
-
-                      <li>
-                        Boundary Construction and design- Budanilkantha
-                      </li>
-
-                      <li>
-                        Qatar Residence- Repair and Maintenance, Bhaisepati
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <!-- end  -->
-                <!-- time line items  -->
-                <div class="timeline-item">
-                  <div class="timeline-item-inner outer-shadow">
-                    <i class="fas fa-briefcase icon"></i>
-                    <span>November 2020 - March 2021</span>
-                    <h3>Intern</h3>
-                    <h4>Golchha Group</h4>
-                    <p>
-                      <em>
-                        Projects
-                      </em>
-                    </p>
-                    <ul>
-                      <li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                        Renovation of Golchha Residence, Sitapaila
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <!-- end  -->
-              </div>
+          <div class="home-image">
+            <div class="img-box inner-shadow">
+              <img
+                src="./img/profile-pic.png"
+                class="outer-shadow"
+                style="width: 500px; height: 500px"
+                alt="profile-pic"
+                srcset=""
+              />
             </div>
           </div>
         </div>
       </div>
-      <!--experience end -->
-
-      <!-- education start -->
-      <div class="row">
-        <div class="education tab-content">
-          <div class="row">
-            <div class="timeline">
-              <div class="row">
-                <!-- time line items  -->
-                <div class="timeline-item">
-                  <div class="timeline-item-inner outer-shadow">
-                    <i class="fas fa-graduation-cap icon"></i>
-                    <span>2023 - 2024</span>
-                    <h3>Fanshawe College</h3>
-                    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      &nbsp;&nbsp;&nbsp;&nbsp;
-
-                      Construction Project Management</p>
-                  </div>
-                </div>
-
-                <!-- end  -->
-                <!-- time line items  -->
-                <div class="timeline-item">
-                  <div class="timeline-item-inner outer-shadow">
-                    <i class="fas fa-graduation-cap icon"></i>
-                    <span>2012 - 2020</span>
-                    <h3>Kathmandu Engineering College</h3>
-
-                    <p>BE in Civil Engineering &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      &nbsp;&nbsp;&nbsp;&nbsp;
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      &nbsp;&nbsp;&nbsp;&nbsp;</p>
-                  </div>
-                </div>
-
-                <!-- end  -->
-
-              </div>
-            </div>
+    </section>
+    <!-- end -->
+    <!-- ========== Start portfolio section ========== -->
+    <section class="portfolio-section section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <div class="data-heading">portfolio</div>
+            <h2>Latest Works</h2>
           </div>
         </div>
-      </div>
-      <!-- education end -->
-
-    </div>
-  </section>
-  <!-- end  -->
-
-  <!-- ========== Start service section ========== -->
-
-  <div class="service-section section" id="services">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <div class="data-heading">Services</div>
-          <h2>What i do</h2>
-        </div>
-      </div>
-      <div class="row">
-        <!-- ========== Start service item ========== -->
-        <div class="service-item card" data-tilt data-tilt-scale="1.1">
-          <div class="service-item-inner outer-shadow">
-            <div class="icon inner-shadow">
-              <i class="fas fa-wrench"></i>
-            </div>
-            <h3>Renovation and Remodeling</h3>
-            <p> Breathing new life into existing spaces is our forte. I reimagine layouts and elements, transforming the
-              old into the extraordinary while preserving the integrity of the original design vision.</p>
+        <!-- ========== Start portfolio filter========== -->
+        <div class="row">
+          <div class="portfolio-filter">
+            <span class="filter-item outer-shadow active" data-target="all"
+              >All</span
+            >
+            <span class="filter-item" data-target="park-design"
+              >Park Design</span
+            >
+            <span class="filter-item" data-target="cafeteria-design"
+              >Cafeteria Designs</span
+            >
+            <span class="filter-item" data-target="landscaping-design"
+              >Landscaping Designs</span
+            >
+            <span class="filter-item" data-target="floor-plan"
+              >Residental Floor Plan</span
+            >
+            <span class="filter-item" data-target="residential-design"
+              >Residential Design</span
+            >
+            <span class="filter-item" data-target="office-design"
+              >Office Design</span
+            >
           </div>
         </div>
+        <!-- ========== End portfolio filter========== -->
 
-
-        <div class="service-item card" data-tilt data-tilt-scale="1.1">
-          <div class="service-item-inner outer-shadow">
-            <div class="icon inner-shadow">
-              <i class="fas fa-comments"></i>
-            </div>
-            <h3>Consultations</h3>
-            <p>Sometimes all you need is a guiding voice. My consultation services provide expert insights and tailored
-              recommendations, empowering you to make informed design choices even on a smaller scale.
-
-            </p>
-          </div>
-        </div>
-
-
-        <div class="service-item card" data-tilt data-tilt-scale="1.1">
-          <div class="service-item-inner outer-shadow">
-            <div class="icon inner-shadow">
-              <i class="fas fa-paint-brush"></i>
-            </div>
-            <h3>Styling and Staging</h3>
-            <p>For residential properties, I infuse the art of staging into the equation. Our magic transforms spaces
-              into captivating showcases, maximizing their market appeal and leaving a lasting impression.</p>
-          </div>
-        </div>
-
-        <div class="service-item card" data-tilt data-tilt-scale="1.1">
-          <div class="service-item-inner outer-shadow">
-            <div class="icon inner-shadow">
-              <i class="fas fa-code"></i>
-            </div>
-            <h3>Space Planning</h3>
-            <p>I meticulously analyze spaces to unlock their full potential.I craft layouts that seamlessly blend
-              functionality with aesthetics, ensuring every square foot is optimized for purpose and flow.</p>
-          </div>
-        </div>
-
-        <div class="service-item card" data-tilt data-tilt-scale="1.1">
-          <div class="service-item-inner outer-shadow">
-            <div class="icon inner-shadow">
-              <i class="fas fa-search"></i>
-            </div>
-            <h3>Project Management</h3>
-            <p>Seamlessly orchestrating the symphony of a project is where I thrive. From coordinating contractors to
-              ensuring each design element aligns with the grand picture, I meticulously manage every detail.</p>
-          </div>
-        </div>
-
-        <div class="service-item card" data-tilt data-tilt-scale="1.1">
-          <div class="service-item-inner outer-shadow">
-            <div class="icon inner-shadow">
-              <i class="fas fa-bullhorn"></i>
-            </div>
-            <h3>Sourcing and Procurement</h3>
-            <p>My extensive network opens doors to exclusive resources. I help in source furnishings, materials, and
-              decor that aren't just beautiful but embody the essence of your design, enhancing the uniqueness of your
-              space.</p>
-          </div>
-        </div>
-
-        <!-- ========== End service item ========== -->
-      </div>
-    </div>
-  </div>
-  <!-- ========== End service section ========== -->
-
-
-  <!-- ========== Start portfolio section ========== -->
-  <section class="portfolio-section section" id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <div class="data-heading">portfolio</div>
-          <h2>Latest Works</h2>
-        </div>
-      </div>
-      <!-- ========== Start portfolio filter========== -->
-      <div class="row">
-        <div class="portfolio-filter">
-          <span class="filter-item outer-shadow active" data-target="all">All</span>
-          <span class="filter-item" data-target="park-design">Park design</span>
-          <span class="filter-item" data-target="cafeteria-design">Cafeteria Designs</span>
-          <span class="filter-item" data-target="landscaping-design">Landscaping Designs</span>
-          <span class="filter-item" data-target="floor-plan">Residental Floor Plan</span>
-          <span class="filter-item" data-target="furniture-design">Furniture design</span>
-          <span class="filter-item" data-target="library-design">Library design</span>
-          <span class="filter-item" data-target="office-design">Office design</span>
-        </div>
-      </div>
-      <!-- ========== End portfolio filter========== -->
-
-      <!-- ========== Start portfolio items ========== -->
-      <div class="row portfolio-items">
+        <!-- ========== Start portfolio items ========== -->
+        <div class="row portfolio-items">
           <!-- ========== Start portfolio item ========== -->
-          <div class="portfolio-item" data-category="park-design">
+          <div class="portfolio-item" data-category="residential-design">
             <div class="portfolio-item-inner outer-shadow">
               <div class="portfolio-item-image">
-                <img src="img/portfolio/thumb/p3.png" alt="portfolio" data-screenshots="
-                          img/portfolio/large/oju/p1.png, 
-                          img/portfolio/large/oju/p2.png,
-                          img/portfolio/large/oju/p3.png,
-                          ">
-  
+                <img
+                  src="img/portfolio/thumb/san2.png"
+                  alt="portfolio"
+                  data-screenshots="
+                        img/portfolio/large/oju/san1.png, 
+                        img/portfolio/large/oju/san2.png
+                       "
+                />
+
                 <!-- view project button  -->
                 <span class="view-project">view project</span>
               </div>
-              <p class="portfolio-item-title">Park Design</p>
+              <p class="portfolio-item-title">RESIDENTIAL DESIGN</p>
               <!-- ========== Start portfolio item details ========== -->
               <div class="portfolio-item-details">
                 <div class="row">
                   <div class="description">
-                    <h3>Project brief: </h3>
-                    <p>The park design showcases a harmonious blend of modern architecture and natural landscaping, creating an inviting and functional recreational space. The first area features curved pathways bordered by lush greenery and integrated seating arrangements, ideal for relaxation or small gatherings. Adjacent to this is a vibrant children's play zone equipped with colorful slides, climbing frames, swings, and built-in trampolines, all designed with safety and engagement in mind. The design includes open, grassy areas and thoughtfully placed trees, adding shade and aesthetic balance. With its contemporary structures and dynamic spaces, the park fosters interaction, play, and relaxation for visitors of all ages.</p>
+                    <h3>Project brief:</h3>
+                    <p>
+                      The house library design exudes a cozy yet sophisticated
+                      ambiance, seamlessly blending functionality with aesthetic
+                      appeal. The space is organized with shelves that maximize
+                      storage while maintaining an inviting atmosphere.
+                      Thoughtfully placed seating areas, including armchairs and
+                      reading nooks, create comfortable spots for relaxation and
+                      immersion in books. Large windows or soft lighting enhance
+                      the room's warmth, fostering a serene environment for
+                      study or leisure. The design integrates natural elements
+                      like wooden finishes and indoor plants, adding to its
+                      charm. This library is a perfect retreat for knowledge
+                      seekers, combining elegance with practicality in a home
+                      setting.
+                    </p>
                   </div>
                   <div class="info">
                     <h3>Project Info</h3>
                     <ul>
                       <li>Date - <span>2022</span></li>
                       <li>Tools - <span>SKETCHUP, LUMION</span></li>
-                      <li>Location - <span>Mississauga, Ontario, Canada</span></li>
+                      <li>
+                        Location - <span>Budanilkantha,Kathmandu,Nepal</span>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -590,124 +307,125 @@
             </div>
           </div>
           <!-- ========== End portfolio item ========== -->
-             <!-- ========== Start portfolio item ========== -->
-        <div class="portfolio-item" data-category="park-design">
-          <div class="portfolio-item-inner outer-shadow">
-            <div class="portfolio-item-image">
-              <img src="img/portfolio/thumb/go1.png" alt="portfolio" data-screenshots="
-                        img/portfolio/large/oju/go1.png, 
-                        img/portfolio/large/oju/go2.png,
-                        img/portfolio/large/oju/go3.png,
-                        img/portfolio/large/oju/go4.png,
-                        img/portfolio/large/oju/go5.png,
-                        ">
+          <!-- ========== Start portfolio item ========== -->
+          <div class="portfolio-item" data-category="park-design">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-image">
+                <img
+                  src="img/portfolio/large/oju/go4.png"
+                  alt="portfolio"
+                  data-screenshots="
+                      img/portfolio/large/oju/go4.png,
+                      img/portfolio/large/oju/go1.png, 
+                      img/portfolio/large/oju/go2.png,
+                      img/portfolio/large/oju/go3.png,
+                      img/portfolio/large/oju/go5.png,
+                      img/portfolio/large/oju/p1.png, 
+                      img/portfolio/large/oju/p2.png,
+                      img/portfolio/large/oju/p3.png
+                  "
+                />
 
-              <!-- view project button  -->
-              <span class="view-project">view project</span>
-            </div>
-            <p class="portfolio-item-title">Go Renders</p>
-            <!-- ========== Start portfolio item details ========== -->
-            <div class="portfolio-item-details">
-              <div class="row">
-                <div class="description">
-                  <h3>Project brief: </h3>
-                  <p>The park design showcases a harmonious blend of modern architecture and natural landscaping, creating an inviting and functional recreational space. The first area features curved pathways bordered by lush greenery and integrated seating arrangements, ideal for relaxation or small gatherings. Adjacent to this is a vibrant children's play zone equipped with colorful slides, climbing frames, swings, and built-in trampolines, all designed with safety and engagement in mind. The design includes open, grassy areas and thoughtfully placed trees, adding shade and aesthetic balance. With its contemporary structures and dynamic spaces, the park fosters interaction, play, and relaxation for visitors of all ages.</p>
-                </div>
-                <div class="info">
-                  <h3>Project Info</h3>
-                  <ul>
-                    <li>Date - <span>2022</span></li>
-                    <li>Tools - <span>SKETCHUP, LUMION</span></li>
-                    <li>Location - <span>Mississauga,Ontario, CANADA</span></li>
-                  </ul>
+                <!-- view project button  -->
+                <span class="view-project">view project</span>
+              </div>
+              <p class="portfolio-item-title">RECREATIONAL REDEVELOPMENT</p>
+              <!-- ========== Start portfolio item details ========== -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Project brief:</h3>
+                    <p>
+                      The park design showcases a harmonious blend of modern
+                      architecture and natural landscaping, creating an inviting
+                      and functional recreational space. The first area features
+                      curved pathways bordered by lush greenery and integrated
+                      seating arrangements, ideal for relaxation or small
+                      gatherings. Adjacent to this is a vibrant children's play
+                      zone equipped with colorful slides, climbing frames,
+                      swings, and built-in trampolines, all designed with safety
+                      and engagement in mind. The design includes open, grassy
+                      areas and thoughtfully placed trees, adding shade and
+                      aesthetic balance. With its contemporary structures and
+                      dynamic spaces, the park fosters interaction, play, and
+                      relaxation for visitors of all ages.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Project Info</h3>
+                    <ul>
+                      <li>Date - <span>2022</span></li>
+                      <li>Tools - <span>SKETCHUP, LUMION</span></li>
+                      <li>
+                        Location - <span>Mississauga, Ontario, Canada</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+              <!-- ========== End portfolio item details ========== -->
             </div>
-            <!-- ========== End portfolio item details ========== -->
           </div>
-        </div>
-        <!-- ========== End portfolio item ========== -->
-             <!-- ========== Start portfolio item ========== -->
-        <div class="portfolio-item" data-category="library-design">
-          <div class="portfolio-item-inner outer-shadow">
-            <div class="portfolio-item-image">
-              <img src="img/portfolio/thumb/san2.png" alt="portfolio" data-screenshots="
-                        img/portfolio/large/oju/san1.png, 
-                        img/portfolio/large/oju/san2.png,
-                       
-                        ">
+          <!-- ========== End portfolio item ========== -->
 
-              <!-- view project button  -->
-              <span class="view-project">view project</span>
-            </div>
-            <p class="portfolio-item-title">House Design</p>
-            <!-- ========== Start portfolio item details ========== -->
-            <div class="portfolio-item-details">
-              <div class="row">
-                <div class="description">
-                  <h3>Project brief: </h3>
-                  <p>The house library design exudes a cozy yet sophisticated ambiance, seamlessly blending functionality with aesthetic appeal. The space is organized with shelves that maximize storage while maintaining an inviting atmosphere. Thoughtfully placed seating areas, including armchairs and reading nooks, create comfortable spots for relaxation and immersion in books. Large windows or soft lighting enhance the room's warmth, fostering a serene environment for study or leisure. The design integrates natural elements like wooden finishes and indoor plants, adding to its charm. This library is a perfect retreat for knowledge seekers, combining elegance with practicality in a home setting.</p>
-                </div>
-                <div class="info">
-                  <h3>Project Info</h3>
-                  <ul>
-                    <li>Date - <span>2022</span></li>
-                    <li>Tools - <span>SKETCHUP, LUMION</span></li>
-                    <li>Location - <span>Budanilkantha,Kathmandu,Nepal</span></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- ========== End portfolio item details ========== -->
-          </div>
-        </div>
-        <!-- ========== End portfolio item ========== -->
-        <!-- ========== Start portfolio item ========== -->
-        <div class="portfolio-item" data-category="landscaping-design">
-          <div class="portfolio-item-inner outer-shadow">
-            <div class="portfolio-item-image">
-              <img src="img/portfolio/thumb/project-1.jpg" alt="portfolio" data-screenshots="img/portfolio/large/project-1/1.jpg, 
+          <!-- ========== Start portfolio item ========== -->
+          <div class="portfolio-item" data-category="landscaping-design">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-image">
+                <img
+                  src="img/portfolio/thumb/project-1.jpg"
+                  alt="portfolio"
+                  data-screenshots="img/portfolio/large/project-1/1.jpg, 
                         img/portfolio/large/project-1/2.jpg,
                         img/portfolio/large/project-1/3.jpg,
                         img/portfolio/large/project-1/4.jpg,
                         img/portfolio/large/project-1/5.jpg,
                         img/portfolio/large/project-1/6.jpg,
                         img/portfolio/large/project-1/7.jpg,
-                        img/portfolio/large/project-1/8.jpg">
+                        img/portfolio/large/project-1/8.jpg"
+                />
 
-
-              <!-- view project button  -->
-              <span class="view-project">view project</span>
-            </div>
-            <p class="portfolio-item-title">Shivalaya</p>
-            <!-- ========== Start portfolio item details ========== -->
-            <div class="portfolio-item-details">
-              <div class="row">
-                <div class="description">
-                  <h3>Project brief: </h3>
-                  <p>This project is a landscaping of a residential house of one of the Guru of Nepal. As per Client
-                    requirement, the design consist of the driveway in the centre with the roundabout including greenery
-                    areas on both sides of the entrance.</p>
-                </div>
-                <div class="info">
-                  <h3>Project Info</h3>
-                  <ul>
-                    <li>Date - <span>2022</span></li>
-                    <li>Tools - <span>AUTOCAD, SKETCHUP, LUMION </span></li>
-                    <li>Location - <span>GAURIGHAT, KATHAMNDU, NEPAL</span></li>
-                  </ul>
+                <!-- view project button  -->
+                <span class="view-project">view project</span>
+              </div>
+              <p class="portfolio-item-title">SHIVALAYA</p>
+              <!-- ========== Start portfolio item details ========== -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Project brief:</h3>
+                    <p>
+                      This project is a landscaping of a residential house of
+                      one of the Guru of Nepal. As per Client requirement, the
+                      design consist of the driveway in the centre with the
+                      roundabout including greenery areas on both sides of the
+                      entrance.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Project Info</h3>
+                    <ul>
+                      <li>Date - <span>2022</span></li>
+                      <li>Tools - <span>AUTOCAD, SKETCHUP, LUMION </span></li>
+                      <li>
+                        Location - <span>GAURIGHAT, KATHAMNDU, NEPAL</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+              <!-- ========== End portfolio item details ========== -->
             </div>
-            <!-- ========== End portfolio item details ========== -->
           </div>
-        </div>
-        <!-- ========== End portfolio item ========== -->
-        <!-- ========== Start portfolio item ========== -->
-        <div class="portfolio-item" data-category="cafeteria-design">
-          <div class="portfolio-item-inner outer-shadow">
-            <div class="portfolio-item-image">
-              <img src="img/portfolio/thumb/project-3.jpeg" alt="portfolio" data-screenshots="
+          <!-- ========== End portfolio item ========== -->
+          <!-- ========== Start portfolio item ========== -->
+          <div class="portfolio-item" data-category="cafeteria-design">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-image">
+                <img
+                  src="img/portfolio/thumb/project-3.jpeg"
+                  alt="portfolio"
+                  data-screenshots="
                         img/portfolio/large/project-3/1.jpeg, 
                         img/portfolio/large/project-3/2.jpeg,
                         img/portfolio/large/project-3/3.jpeg,
@@ -716,201 +434,102 @@
                         img/portfolio/large/project-3/6.jpeg,
                         img/portfolio/large/project-3/7.jpeg,
                         img/portfolio/large/project-3/8.jpeg
-                        ">
+                        "
+                />
 
-              <!-- view project button  -->
-              <span class="view-project">view project</span>
-            </div>
-            <p class="portfolio-item-title">Hospital's Cafeteria</p>
-            <!-- ========== Start portfolio item details ========== -->
-            <div class="portfolio-item-details">
-              <div class="row">
-                <div class="description">
-                  <h3>Project brief: </h3>
-                  <p>This project consists of a sizable hall converted into a hospital cafeteria. According to the
-                    client's request, the area consists of other stalls to its right and all of the bakery items in the
-                    center. A play area has also been added in the corner to make it more convenient for visitors with
-                    children. Huge space offers both distance and numerous occupants.</p>
-                </div>
-                <div class="info">
-                  <h3>Project Info</h3>
-                  <ul>
-                    <li>Date - <span>2022</span></li>
-                    <li>Tools - <span>SKETCHUP, LUMION</span></li>
-                    <li>Location - <span>BHAISEPATI, KATHAMNDU, NEPAL</span></li>
-                  </ul>
+                <!-- view project button  -->
+                <span class="view-project">view project</span>
+              </div>
+              <p class="portfolio-item-title">Hospital's Cafeteria</p>
+              <!-- ========== Start portfolio item details ========== -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Project brief:</h3>
+                    <p>
+                      This project consists of a sizable hall converted into a
+                      hospital cafeteria. According to the client's request, the
+                      area consists of other stalls to its right and all of the
+                      bakery items in the center. A play area has also been
+                      added in the corner to make it more convenient for
+                      visitors with children. Huge space offers both distance
+                      and numerous occupants.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Project Info</h3>
+                    <ul>
+                      <li>Date - <span>2022</span></li>
+                      <li>Tools - <span>SKETCHUP, LUMION</span></li>
+                      <li>
+                        Location - <span>BHAISEPATI, KATHAMNDU, NEPAL</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+              <!-- ========== End portfolio item details ========== -->
             </div>
-            <!-- ========== End portfolio item details ========== -->
           </div>
-        </div>
-        <!-- ========== End portfolio item ========== -->
-        <!-- ========== Start portfolio item ========== -->
-        <div class="portfolio-item" data-category="landscaping-design">
-          <div class="portfolio-item-inner outer-shadow">
-            <div class="portfolio-item-image">
-              <img src="img/portfolio/thumb/project-2.jpeg" alt="portfolio" data-screenshots="img/portfolio/large/project-2/1.jpeg, 
+          <!-- ========== End portfolio item ========== -->
+          <!-- ========== Start portfolio item ========== -->
+          <div class="portfolio-item" data-category="landscaping-design">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-image">
+                <img
+                  src="img/portfolio/thumb/project-2.jpeg"
+                  alt="portfolio"
+                  data-screenshots="img/portfolio/large/project-2/1.jpeg, 
                         img/portfolio/large/project-2/2.jpeg,
                         img/portfolio/large/project-2/3.jpeg,
-                        img/portfolio/large/project-2/4.jpeg">
+                        img/portfolio/large/project-2/4.jpeg"
+                />
 
-              <!-- view project button  -->
-              <span class="view-project">view project</span>
-            </div>
-            <p class="portfolio-item-title">Yagyalaya</p>
-            <!-- ========== Start portfolio item details ========== -->
-            <div class="portfolio-item-details">
-              <div class="row">
-                <div class="description">
-                  <h3>Project brief: </h3>
-                  <p>With a large garden area surrounding the home, the customer envisioned a lovely garden with
-                    strolling paths for rest, places to sit and unwind, and even some water features. The route was
-                    beautifully designed with stones, and the client was thrilled with the beautifying work done with
-                    rusty stones. Instead of using a fountain as the design, I thought it would be interesting to have
-                    the  circulating water in what seems like a marble bowl.
-                  </p>
-                </div>
-                <div class="info">
-                  <h3>Project Info</h3>
-                  <ul>
-                    <li>Date - <span>2022</span></li>
-                    <li>Tools - <span>SKETCHUP, LUMION</span></li>
-                    <li>Location - <span>BHATBHATENI, KATHAMNDU, NEPAL</span></li>
-                  </ul>
+                <!-- view project button  -->
+                <span class="view-project">view project</span>
+              </div>
+              <p class="portfolio-item-title">Yagyalaya</p>
+              <!-- ========== Start portfolio item details ========== -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Project brief:</h3>
+                    <p>
+                      With a large garden area surrounding the home, the
+                      customer envisioned a lovely garden with strolling paths
+                      for rest, places to sit and unwind, and even some water
+                      features. The route was beautifully designed with stones,
+                      and the client was thrilled with the beautifying work done
+                      with rusty stones. Instead of using a fountain as the
+                      design, I thought it would be interesting to have the
+                       circulating water in what seems like a marble bowl.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Project Info</h3>
+                    <ul>
+                      <li>Date - <span>2022</span></li>
+                      <li>Tools - <span>SKETCHUP, LUMION</span></li>
+                      <li>
+                        Location - <span>BHATBHATENI, KATHAMNDU, NEPAL</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+              <!-- ========== End portfolio item details ========== -->
             </div>
-            <!-- ========== End portfolio item details ========== -->
           </div>
-        </div>
-        <!-- ========== End portfolio item ========== -->
+          <!-- ========== End portfolio item ========== -->
 
-
-        <!-- ========== Start portfolio item ========== -->
-        <div class="portfolio-item" data-category="cafeteria-design">
-          <div class="portfolio-item-inner outer-shadow">
-            <div class="portfolio-item-image">
-              <img src="img/portfolio/thumb/project-4.png" alt="portfolio" data-screenshots="
-                        img/portfolio/large/project-4/1.jpg,
-                        img/portfolio/large/project-4/2.png,
-                        img/portfolio/large/project-4/3.jpg,
-                        img/portfolio/large/project-4/4.jpg,
-                        img/portfolio/large/project-4/5.jpg,
-                        img/portfolio/large/project-4/6.jpg,
-                        img/portfolio/large/project-4/7.jpg,
-                        img/portfolio/large/project-4/1.png">
-
-              <!-- view project button  -->
-              <span class="view-project">view project</span>
-            </div>
-            <p class="portfolio-item-title">Lazimpat</p>
-            <!-- ========== Start portfolio item details ========== -->
-            <div class="portfolio-item-details">
-              <div class="row">
-                <div class="description">
-                  <h3>Project brief: </h3>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic doloribus labore assumenda nostrum
-                    commodi. Officia.</p>
-                </div>
-                <div class="info">
-                  <h3>Project info</h3>
-                  <ul>
-                    <li>Date - <span>2021</span></li>
-                    <li>Client - <span>xyz</span></li>
-                    <li>Tools - <span>html, css, Jquery, PHP, Ajax</span></li>
-                    <li>Web - <span>www.morsed.com/project_name</span></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- ========== End portfolio item details ========== -->
-          </div>
-        </div>
-        <!-- ========== End portfolio item ========== -->
-        <!-- ========== Start portfolio item ========== -->
-        <div class="portfolio-item" data-category="furniture-design">
-          <div class="portfolio-item-inner outer-shadow">
-            <div class="portfolio-item-image">
-              <img src="img/portfolio/thumb/project-5.png" alt="portfolio" data-screenshots="
-                        img/portfolio/large/project-5/1.png,
-                        img/portfolio/large/project-5/2.png">
-
-              <!-- view project button  -->
-              <span class="view-project">view project</span>
-            </div>
-            <p class="portfolio-item-title">Dholahiti Residence</p>
-            <!-- ========== Start portfolio item details ========== -->
-            <div class="portfolio-item-details">
-              <div class="row">
-                <div class="description">
-                  <h3>Project brief: </h3>
-                  <p>A simple project was created to renovate and expand a living room. The positioning of the sofa,
-                    coffee tables, and even the cushions were chosen by the customer while designing the furniture,
-                    which also included TV cabinets and the window architrave.
-                  </p>
-                </div>
-                <div class="info">
-                  <h3>Project Info</h3>
-                  <ul>
-                    <li>Date - <span>2023</span></li>
-                    <li>Client - <span>Rachan Acharya</span></li>
-                    <li>Tools - <span>AUTOCAD, SKETCHUP, V-RAY</span></li>
-                    <li>Locations - <span>DHOLAHITI, KATHMANDU, NEPAL</span></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- ========== End portfolio item details ========== -->
-          </div>
-        </div>
-        <!-- ========== End portfolio item ========== -->
-
-        <!-- ========== Start portfolio item ========== -->
-        <div class="portfolio-item" data-category="cafeteria-design">
-          <div class="portfolio-item-inner outer-shadow">
-            <div class="portfolio-item-image">
-              <img src="img/portfolio/thumb/project-6.png" alt="portfolio" data-screenshots="
-                        img/portfolio/large/project-6/1.png,
-                        img/portfolio/large/project-6/2.png,
-                        img/portfolio/large/project-6/3.png,
-                        img/portfolio/large/project-6/4.png,
-                        img/portfolio/large/project-6/5.png,
-                        img/portfolio/large/project-6/6.jpg
-                        ">
-
-              <!-- view project button  -->
-              <span class="view-project">view project</span>
-            </div>
-            <p class="portfolio-item-title">Office Cafe</p>
-            <!-- ========== Start portfolio item details ========== -->
-            <div class="portfolio-item-details">
-              <div class="row">
-                <div class="description">
-                  <h3>Project brief: </h3>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic doloribus labore assumenda nostrum
-                    commodi. Officia.</p>
-                </div>
-                <div class="info">
-                  <h3>Project Info</h3>
-                  <ul>
-                    <li>Date - <span>2023</span></li>
-                    <li>Client - <span>Bhojraj Thapa</span></li>
-                    <li>Tools - <span>AUTOCAD, SKETCHUP, LUMION</span></li>
-                    <li>Web - <span>ANAMNAGAR, KATHMANDU,NEPAL</span></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- ========== End portfolio item details ========== -->
-          </div>
-        </div>
-        <!-- ========== End portfolio item ========== -->
-        <!-- ========== Start portfolio item ========== -->
-        <div class="portfolio-item" data-category="office-design">
-          <div class="portfolio-item-inner outer-shadow">
-            <div class="portfolio-item-image">
-              <img src="img/portfolio/thumb/project-7.jpeg" alt="portfolio" data-screenshots="
+          <!-- ========== Start portfolio item ========== -->
+          <div class="portfolio-item" data-category="office-design">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-image">
+                <img
+                  src="img/portfolio/thumb/project-7.jpeg"
+                  alt="portfolio"
+                  data-screenshots="
                         img/portfolio/large/project-7/1.jpeg,
                         img/portfolio/large/project-7/2.jpeg,
                         img/portfolio/large/project-7/3.jpeg,
@@ -919,61 +538,28 @@
                         img/portfolio/large/project-7/6.jpeg,
                         img/portfolio/large/project-7/7.jpeg,
                         img/portfolio/large/project-7/8.jpeg
-                        ">
+                        "
+                />
 
-              <!-- view project button  -->
-              <span class="view-project">view project</span>
-            </div>
-            <p class="portfolio-item-title">Travel Agency</p>
-            <!-- ========== Start portfolio item details ========== -->
-            <div class="portfolio-item-details">
-              <div class="row">
-                <div class="description">
-                  <h3>Project brief: </h3>
-                  <p>The workplace is set up with two private cabins, a conference room, a corridor with cubicles, and
-                    one main cabin with a second resting area within. Additionally, this workplace offers a kitchen
-                    space for all of the employees to use as a canteen, along with a lovely balcony area for
-                    refreshments. The vibrant greeting area with a spot for the numerous clients to wait looks lovely.
-                    According to the needs of the client, all the space and rooms were separated.
-                  </p>
-                </div>
-                <div class="info">
-                  <h3>Project Info</h3>
-                  <ul>
-                    <li>Date - <span>2023</span></li>
-                    <li>Client - <span>Moahan Bhandari</span></li>
-                    <li>Tools - <span>AUTOCAD, SKETCHUP, LUMION</span></li>
-                    <li>Location - <span>SUKEDHARA, KATHMANDU, NEPAL</span></li>
-                  </ul>
-                </div>
+                <!-- view project button  -->
+                <span class="view-project">view project</span>
               </div>
-            </div>
-            <!-- ========== End portfolio item details ========== -->
-          </div>
-        </div>
-        <!-- ========== End portfolio item ========== -->
-        <!-- ========== Start portfolio item ========== -->
-        <div class="portfolio-item" data-category="floor-plan">
-          <div class="portfolio-item-inner outer-shadow">
-            <div class="portfolio-item-image">
-              <img src="img/portfolio/thumb/project-8.jpg" alt="portfolio" data-screenshots="
-                        img/portfolio/large/project-8/1.jpg                        
-                        ">
-
-              <!-- view project button  -->
-              <span class="view-project">view project</span>
-            </div>
-            <p class="portfolio-item-title">Residential Floor Plan</p>
+              <p class="portfolio-item-title">Travel Agency</p>
               <!-- ========== Start portfolio item details ========== -->
               <div class="portfolio-item-details">
                 <div class="row">
                   <div class="description">
-                    <h3>Project brief: </h3>
-                    <p>The workplace is set up with two private cabins, a conference room, a corridor with cubicles, and
-                      one main cabin with a second resting area within. Additionally, this workplace offers a kitchen
-                      space for all of the employees to use as a canteen, along with a lovely balcony area for
-                      refreshments. The vibrant greeting area with a spot for the numerous clients to wait looks lovely.
-                      According to the needs of the client, all the space and rooms were separated.
+                    <h3>Project brief:</h3>
+                    <p>
+                      The workplace is set up with two private cabins, a
+                      conference room, a corridor with cubicles, and one main
+                      cabin with a second resting area within. Additionally,
+                      this workplace offers a kitchen space for all of the
+                      employees to use as a canteen, along with a lovely balcony
+                      area for refreshments. The vibrant greeting area with a
+                      spot for the numerous clients to wait looks lovely.
+                      According to the needs of the client, all the space and
+                      rooms were separated.
                     </p>
                   </div>
                   <div class="info">
@@ -982,41 +568,101 @@
                       <li>Date - <span>2023</span></li>
                       <li>Client - <span>Moahan Bhandari</span></li>
                       <li>Tools - <span>AUTOCAD, SKETCHUP, LUMION</span></li>
-                      <li>Location - <span>SUKEDHARA, KATHMANDU, NEPAL</span></li>
+                      <li>
+                        Location - <span>SUKEDHARA, KATHMANDU, NEPAL</span>
+                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
               <!-- ========== End portfolio item details ========== -->
-
+            </div>
           </div>
-        </div>
-        <!-- ========== End portfolio item ========== -->
-        <!-- ========== Start portfolio item ========== -->
-        <div class="portfolio-item" data-category="floor-plan">
-          <div class="portfolio-item-inner outer-shadow">
-            <div class="portfolio-item-image">
-              <img src="img/portfolio/thumb/project-9.jpg" alt="portfolio" data-screenshots="
+          <!-- ========== End portfolio item ========== -->
+          <!-- ========== Start portfolio item ========== -->
+          <div class="portfolio-item" data-category="floor-plan">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-image">
+                <img
+                  src="img/portfolio/thumb/project-8.jpg"
+                  alt="portfolio"
+                  data-screenshots="
+                        img/portfolio/large/project-8/1.jpg                        
+                        "
+                />
+
+                <!-- view project button  -->
+                <span class="view-project">view project</span>
+              </div>
+              <p class="portfolio-item-title">Residential Floor Plan</p>
+              <!-- ========== Start portfolio item details ========== -->
+              <div class="portfolio-item-details">
+                <div class="row">
+                  <div class="description">
+                    <h3>Project brief:</h3>
+                    <p>
+                      The workplace is set up with two private cabins, a
+                      conference room, a corridor with cubicles, and one main
+                      cabin with a second resting area within. Additionally,
+                      this workplace offers a kitchen space for all of the
+                      employees to use as a canteen, along with a lovely balcony
+                      area for refreshments. The vibrant greeting area with a
+                      spot for the numerous clients to wait looks lovely.
+                      According to the needs of the client, all the space and
+                      rooms were separated.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <h3>Project Info</h3>
+                    <ul>
+                      <li>Date - <span>2023</span></li>
+                      <li>Client - <span>Moahan Bhandari</span></li>
+                      <li>Tools - <span>AUTOCAD, SKETCHUP, LUMION</span></li>
+                      <li>
+                        Location - <span>SUKEDHARA, KATHMANDU, NEPAL</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- ========== End portfolio item details ========== -->
+            </div>
+          </div>
+          <!-- ========== End portfolio item ========== -->
+          <!-- ========== Start portfolio item ========== -->
+          <div class="portfolio-item" data-category="floor-plan">
+            <div class="portfolio-item-inner outer-shadow">
+              <div class="portfolio-item-image">
+                <img
+                  src="img/portfolio/thumb/project-9.jpg"
+                  alt="portfolio"
+                  data-screenshots="
                   img/portfolio/large/project-8/1.jpg,
                   img/portfolio/large/project-8/2.jpg,
                   img/portfolio/large/project-8/3.jpg,
-                  img/portfolio/large/project-8/4.jpg,
-                  ">
+                  img/portfolio/large/project-8/4.jpg
+                  "
+                />
 
-              <!-- view project button  -->
-              <span class="view-project">view project</span>
-            </div>
-            <p class="portfolio-item-title">Office Floor Plan</p>
+                <!-- view project button  -->
+                <span class="view-project">view project</span>
+              </div>
+              <p class="portfolio-item-title">Office Floor Plan</p>
               <!-- ========== Start portfolio item details ========== -->
               <div class="portfolio-item-details">
                 <div class="row">
                   <div class="description">
-                    <h3>Project brief: </h3>
-                    <p>The workplace is set up with two private cabins, a conference room, a corridor with cubicles, and
-                      one main cabin with a second resting area within. Additionally, this workplace offers a kitchen
-                      space for all of the employees to use as a canteen, along with a lovely balcony area for
-                      refreshments. The vibrant greeting area with a spot for the numerous clients to wait looks lovely.
-                      According to the needs of the client, all the space and rooms were separated.
+                    <h3>Project brief:</h3>
+                    <p>
+                      The workplace is set up with two private cabins, a
+                      conference room, a corridor with cubicles, and one main
+                      cabin with a second resting area within. Additionally,
+                      this workplace offers a kitchen space for all of the
+                      employees to use as a canteen, along with a lovely balcony
+                      area for refreshments. The vibrant greeting area with a
+                      spot for the numerous clients to wait looks lovely.
+                      According to the needs of the client, all the space and
+                      rooms were separated.
                     </p>
                   </div>
                   <div class="info">
@@ -1025,197 +671,632 @@
                       <li>Date - <span>2023</span></li>
                       <li>Client - <span>Moahan Bhandari</span></li>
                       <li>Tools - <span>AUTOCAD, SKETCHUP, LUMION</span></li>
-                      <li>Location - <span>SUKEDHARA, KATHMANDU, NEPAL</span></li>
+                      <li>
+                        Location - <span>SUKEDHARA, KATHMANDU, NEPAL</span>
+                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
               <!-- ========== End portfolio item details ========== -->
-
+            </div>
           </div>
+          <!-- ========== End portfolio item ========== -->
         </div>
-        <!-- ========== End portfolio item ========== -->
+        <!-- ========== End portfolio items ========== -->
       </div>
-      <!-- ========== End portfolio items ========== -->
-
-    </div>
-  </section>
-  <!-- ========== End portfolio section ========== -->
-
-  <!-- ========== Start contact section ========== -->
-  <section class="contact-section section" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <div class="data-heading">contact</div>
-          <h2>Get In Touch</h2>
-        </div>
-      </div>
-      <div class="row">
-        <!-- ========== Start contact item ========== -->
-        <div class="contact-item contact-card" data-tilt data-tilt-axis="x" data-tilt data-tilt-scale="1.1">
-          <div class="contact-item-inner outer-shadow">
-            <i class="fas fa-phone">
-              <span class="contact-span">Phone</span>
-              <p class="contact-p">+1 226 984 9393</p>
-            </i>
+    </section>
+    <!-- ========== End portfolio section ========== -->
+    <!-- ========== Start portfolio popup ========== -->
+    <div class="pp portfolio-popup">
+      <div class="pp-details">
+        <div class="pp-details-inner">
+          <div class="pp-title">
+            <h2>personal portfolio</h2>
+            <p>
+              Category -
+              <span class="pp-project-category">Web Application</span>
+            </p>
           </div>
-        </div>
-        <!-- ========== End contact item ========== -->
-        <!-- ========== Start contact item ========== -->
-        <div class="contact-item contact-card" data-tilt data-tilt-axis="x" data-tilt data-tilt-scale="1.1">
-          <div class="contact-item-inner outer-shadow">
-            <i class="fas fa-envelope">
-              <span class="contact-span">Email Address</span>
-              <p class="contact-p">ojaswirijal6@gmail.com</p>
-            </i>
-          </div>
-        </div>
-        <!-- ========== End contact item ========== -->
-        <!-- ========== Start contact item ========== -->
-        <div class="contact-item contact-card" data-tilt data-tilt-axis="x" data-tilt data-tilt-scale="1.1">
-          <div class="contact-item-inner outer-shadow">
-            <i class="fas fa-map-marker-alt">
-              <span class="contact-span">Address</span>
-              <p class="contact-p">London,ON, Canada</p>
-            </i>
-          </div>
-        </div>
-        <!-- ========== End contact item ========== -->
-      </div>
-      <!-- ========== Start contact from ========== -->
-      <div class="row">
-        <div class="contact-form">
-          <form action="" method="">
+          <div class="pp-project-details">
             <div class="row">
-              <div class="w-50">
-                <div class="input-group outer-shadow hover-in-shadow">
-                  <input class="input-control" type="text" name="name" id="name" placeholder="Name" required>
-                </div>
-                <div class="input-group outer-shadow hover-in-shadow">
-                  <input class="input-control" type="email" name="email" id="sender" placeholder="email" required>
-                </div>
-                <div class="input-group outer-shadow hover-in-shadow">
-                  <input class="input-control" type="tel" name="subject" id="subject" placeholder="Subject" required>
-                </div>
+              <div class="description">
+                <h3>Project brief:</h3>
+                <p>
+                  Lorem ipsum dolor, sit Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quidem perferendis corporis culpa! amet
+                  consectetur adipisicing elit. Hic doloribus labore assumenda
+                  nostrum commodi. Officia. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Incidunt.
+                </p>
               </div>
-              <div class="w-50">
-                <div class="input-group outer-shadow hover-in-shadow">
-                  <textarea class="input-control" name="user_dtls" id="user_dtls" required
-                    placeholder="Type here..."></textarea>
-                </div>
+              <div class="info">
+                <h3>Project info</h3>
+                <ul>
+                  <li>Date - <span>2021</span></li>
+                  <li>Client - <span>xyz</span></li>
+                  <li>Tools - <span>html, css, js</span></li>
+                  <li>
+                    Web -
+                    <span
+                      ><a href="#" id="link" id="link" target="_next"
+                        >www.morsed.com/project_name</a
+                      ></span
+                    >
+                  </li>
+                </ul>
               </div>
-            </div>
-            <div class="row">
-              <div class="submit-btn">
-                <button class="btn-1 outer-shadow outer-shadw hover-in-shadow submit">Send Message</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <!-- ========== End contact from ========== -->
-    </div>
-  </section>
-  <!-- ========== End contact section ========== -->
-
-  <!-- ========== Start portfolio popup ========== -->
-  <div class="pp portfolio-popup">
-    <div class="pp-details">
-      <div class="pp-details-inner">
-        <div class="pp-title">
-          <h2>personal portfolio</h2>
-          <p>Category - <span class="pp-project-category">Web Application</span></p>
-        </div>
-        <div class="pp-project-details">
-          <div class="row">
-            <div class="description">
-              <h3>Project brief: </h3>
-              <p>Lorem ipsum dolor, sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perferendis
-                corporis culpa! amet consectetur adipisicing elit. Hic doloribus labore assumenda nostrum commodi.
-                Officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt.</p>
-            </div>
-            <div class="info">
-              <h3>Project info</h3>
-              <ul>
-                <li>Date - <span>2021</span></li>
-                <li>Client - <span>xyz</span></li>
-                <li>Tools - <span>html, css, js</span></li>
-                <li>Web - <span><a href="#" id="link" id="link" target="_next">www.morsed.com/project_name</a></span>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="separator"></div>
+      <div class="separator"></div>
 
-    <div class="pp-main">
-      <div class="pp-main-inner">
-        <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details<i class="fas fa-plus"></i>
+      <div class="pp-main">
+        <div class="pp-main-inner">
+          <div class="pp-project-details-btn outer-shadow hover-in-shadow">
+            Project Details<i class="fas fa-plus"></i>
+          </div>
+          <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
+          <img
+            src="img/portfolio/large/project-1/1.png"
+            alt="img"
+            class="pp-img outer-shadow"
+          />
+          <div class="pp-counter">1 of 6</div>
         </div>
-        <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
-        <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
-        <div class="pp-counter">1 of 6</div>
+        <div class="pp-loader">
+          <div class="loader"></div>
+        </div>
+        <!-- ========== Start pp navigation ========== -->
+        <div class="pp-pre"><i class="fas fa-play"></i></div>
+        <div class="pp-next"><i class="fas fa-play"></i></div>
+        <!-- ========== End pp navigation ========== -->
       </div>
-      <div class="pp-loader">
-        <div class="loader"></div>
+    </div>
+    <!-- ========== End portfolio popup ========== -->
+    <!-- about section  -->
+    <section class="about-section section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <div class="data-heading">MAIN INFO</div>
+            <h2>About me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box inner-shadow">
+              <img
+                src="./img/profile-pic.png"
+                alt=""
+                style="height: 450px"
+                class="outer0shadow"
+              />
+            </div>
+            <!-- social icons -->
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/ojaswi.rijal.1"
+                target="_nextTab"
+                class="outer-shadow hover-in-shadow link-card"
+                data-tilt
+                data-tilt-scale="1.1"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/ozaswi/"
+                target="_nextTab"
+                class="outer-shadow hover-in-shadow link-card"
+                data-tilt
+                data-tilt-scale="1.1"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/ojaswi-rijal/"
+                target="_nextTab"
+                class="outer-shadow hover-in-shadow link-card"
+                data-tilt
+                data-tilt-scale="1.1"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="about-info">
+            <p class="about-info-inner">
+              <!-- content will fetch from  "TODO: js/autoTypingAnimation " -->
+            </p>
+            <!-- this is a just demo text  -->
+
+            <!-- <span>Hi, this is a demo name</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius officia ea ut vonsectetur adipisicing elit. Illo voluptatum iste, tempora rem obcaecati omnis delectus sunt, consequuntur, et ut quasi aperiam assumenda! <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex beatae reprehenderit vero maiores dignissimos error vitae, optio inventore explicabo quia officiis magni delectus? -->
+
+            <a
+              href="cv_ojaswi.pdf"
+              class="btn-1 outer-shadow hover-in-shadow"
+              target="next_page"
+              >Download CV</a
+            >
+            <a
+              href="ojaswi_portfolio.pdf"
+              class="link-item btn-1 outer-shadow hover-in-shadow"
+              >Download Portfolio</a
+            >
+          </div>
+        </div>
+        <!-- about section start -->
+        <div class="row">
+          <div class="about-tabs">
+            <span class="tab-item outer-shadow active" data-target=".skills"
+              >skills</span
+            >
+            <span class="tab-item" data-target=".experience">experience</span>
+            <span class="tab-item" data-target=".education">education</span>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- skill section start  -->
+        <div class="row">
+          <div class="skills tab-content active">
+            <div id="skills-list"></div>
+          </div>
+        </div>
+        <!-- end  -->
+
+        <!-- experience  -->
+        <div class="row">
+          <div class="experience tab-content">
+            <div class="row">
+              <div class="timeline">
+                <div class="row">
+                  <!-- time line items  -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>February 2022- November 2022</span>
+                      <h3>Freelancing</h3>
+                      <h4>Projects</h4>
+                      <p></p>
+
+                      <ul>
+                        <li>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp; Landscaping –Gaurighat
+                        </li>
+
+                        <li>Landscaping –Naxal</li>
+
+                        <li>Interior Design Café-Bhaisepati</li>
+
+                        <li>Interior Design Lounge-Maharajgunj</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- end  -->
+                  <!-- time line items  -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>April 2021- October 2022</span>
+                      <h3>Site Supervisor</h3>
+                      <h4>Pneumatic Development Pvt. Ltd</h4>
+                      <p>
+                        <em> Projects </em>
+                      </p>
+
+                      <ul>
+                        <li>Construction of Hotel, Khusibu</li>
+
+                        <li>Renovation of Residential House, Lazimpat</li>
+
+                        <li>
+                          Interior and external design and construction,
+                          Budanilkantha
+                        </li>
+
+                        <li>Boundary Construction and design- Budanilkantha</li>
+
+                        <li>
+                          Qatar Residence- Repair and Maintenance, Bhaisepati
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- end  -->
+                  <!-- time line items  -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>November 2020 - March 2021</span>
+                      <h3>Intern</h3>
+                      <h4>Golchha Group</h4>
+                      <p>
+                        <em> Projects </em>
+                      </p>
+                      <ul>
+                        <li>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          Renovation of Golchha Residence, Sitapaila
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- end  -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--experience end -->
+
+        <!-- education start -->
+        <div class="row">
+          <div class="education tab-content">
+            <div class="row">
+              <div class="timeline">
+                <div class="row">
+                  <!-- time line items  -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2023 - 2024</span>
+                      <h3>Fanshawe College</h3>
+                      <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; Construction Project Management
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- end  -->
+                  <!-- time line items  -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2012 - 2020</span>
+                      <h3>Kathmandu Engineering College</h3>
+
+                      <p>
+                        BE in Civil Engineering
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- end  -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- education end -->
       </div>
-      <!-- ========== Start pp navigation ========== -->
-      <div class="pp-pre"><i class="fas fa-play"></i></div>
-      <div class="pp-next"><i class="fas fa-play"></i></div>
-      <!-- ========== End pp navigation ========== -->
+    </section>
+    <!-- end  -->
+
+    <!-- ========== Start service section ========== -->
+
+    <div class="service-section section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <div class="data-heading">Services</div>
+            <h2>What i do</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- ========== Start service item ========== -->
+          <div class="service-item card" data-tilt data-tilt-scale="1.1">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-wrench"></i>
+              </div>
+              <h3>Renovation and Remodeling</h3>
+              <p>
+                Breathing new life into existing spaces is our forte. I
+                reimagine layouts and elements, transforming the old into the
+                extraordinary while preserving the integrity of the original
+                design vision.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-item card" data-tilt data-tilt-scale="1.1">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-comments"></i>
+              </div>
+              <h3>Consultations</h3>
+              <p>
+                Sometimes all you need is a guiding voice. My consultation
+                services provide expert insights and tailored recommendations,
+                empowering you to make informed design choices even on a smaller
+                scale.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-item card" data-tilt data-tilt-scale="1.1">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <h3>Styling and Staging</h3>
+              <p>
+                For residential properties, I infuse the art of staging into the
+                equation. Our magic transforms spaces into captivating
+                showcases, maximizing their market appeal and leaving a lasting
+                impression.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-item card" data-tilt data-tilt-scale="1.1">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Space Planning</h3>
+              <p>
+                I meticulously analyze spaces to unlock their full potential.I
+                craft layouts that seamlessly blend functionality with
+                aesthetics, ensuring every square foot is optimized for purpose
+                and flow.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-item card" data-tilt data-tilt-scale="1.1">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-search"></i>
+              </div>
+              <h3>Project Management</h3>
+              <p>
+                Seamlessly orchestrating the symphony of a project is where I
+                thrive. From coordinating contractors to ensuring each design
+                element aligns with the grand picture, I meticulously manage
+                every detail.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-item card" data-tilt data-tilt-scale="1.1">
+            <div class="service-item-inner outer-shadow">
+              <div class="icon inner-shadow">
+                <i class="fas fa-bullhorn"></i>
+              </div>
+              <h3>Sourcing and Procurement</h3>
+              <p>
+                My extensive network opens doors to exclusive resources. I help
+                in source furnishings, materials, and decor that aren't just
+                beautiful but embody the essence of your design, enhancing the
+                uniqueness of your space.
+              </p>
+            </div>
+          </div>
+
+          <!-- ========== End service item ========== -->
+        </div>
+      </div>
     </div>
-  </div>
-  <!-- ========== End portfolio popup ========== -->
+    <!-- ========== End service section ========== -->
 
-  <!-- ========== Start style switciher start - for demo pirposs only ========== -->
-  <div class="style-switcher outer-shadow">
-    <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
-      <i class="fas fa-cog fa-spin"></i>
+    <!-- ========== Start contact section ========== -->
+    <section class="contact-section section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <div class="data-heading">contact</div>
+            <h2>Get In Touch</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- ========== Start contact item ========== -->
+          <div
+            class="contact-item contact-card"
+            data-tilt
+            data-tilt-axis="x"
+            data-tilt
+            data-tilt-scale="1.1"
+          >
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-phone">
+                <span class="contact-span">Phone</span>
+                <p class="contact-p">+1 226 984 9393</p>
+              </i>
+            </div>
+          </div>
+          <!-- ========== End contact item ========== -->
+          <!-- ========== Start contact item ========== -->
+          <div
+            class="contact-item contact-card"
+            data-tilt
+            data-tilt-axis="x"
+            data-tilt
+            data-tilt-scale="1.1"
+          >
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-envelope">
+                <span class="contact-span">Email Address</span>
+                <p class="contact-p">ojaswirijal6@gmail.com</p>
+              </i>
+            </div>
+          </div>
+          <!-- ========== End contact item ========== -->
+          <!-- ========== Start contact item ========== -->
+          <div
+            class="contact-item contact-card"
+            data-tilt
+            data-tilt-axis="x"
+            data-tilt
+            data-tilt-scale="1.1"
+          >
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-map-marker-alt">
+                <span class="contact-span">Address</span>
+                <p class="contact-p">Calgary,AB, Canada</p>
+              </i>
+            </div>
+          </div>
+          <!-- ========== End contact item ========== -->
+        </div>
+        <!-- ========== Start contact from ========== -->
+        <div class="row">
+          <div class="contact-form">
+            <form action="" method="">
+              <div class="row">
+                <div class="w-50">
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input
+                      class="input-control"
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input
+                      class="input-control"
+                      type="email"
+                      name="email"
+                      id="sender"
+                      placeholder="email"
+                      required
+                    />
+                  </div>
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input
+                      class="input-control"
+                      type="tel"
+                      name="subject"
+                      id="subject"
+                      placeholder="Subject"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="w-50">
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <textarea
+                      class="input-control"
+                      name="user_dtls"
+                      id="user_dtls"
+                      required
+                      placeholder="Type here..."
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="submit-btn">
+                  <button
+                    class="btn-1 outer-shadow outer-shadw hover-in-shadow submit"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- ========== End contact from ========== -->
+      </div>
+    </section>
+    <!-- ========== End contact section ========== -->
+
+    <!-- ========== Start style switciher start - for demo pirposs only ========== -->
+    <div class="style-switcher outer-shadow">
+      <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon outer-shadow hover-in-shadow">
+        <i class="fas fa-moon"></i>
+      </div>
+
+      <h4>Theme Color</h4>
+      <div class="colors">
+        <span
+          class="color-1"
+          data-tilt
+          data-tilt-scale="1.1"
+          onclick="setActiveStyle('color-1')"
+        ></span>
+        <span
+          class="color-2"
+          data-tilt
+          data-tilt-scale="1.1"
+          onclick="setActiveStyle('color-2')"
+        ></span>
+        <span
+          class="color-3"
+          data-tilt
+          data-tilt-scale="1.1"
+          onclick="setActiveStyle('color-3')"
+        ></span>
+        <span
+          class="color-4"
+          data-tilt
+          data-tilt-scale="1.1"
+          onclick="setActiveStyle('color-4')"
+        ></span>
+        <span
+          class="color-5"
+          data-tilt
+          data-tilt-scale="1.1"
+          onclick="setActiveStyle('color-5')"
+        ></span>
+      </div>
     </div>
-    <div class="day-night s-icon outer-shadow hover-in-shadow">
-      <i class="fas fa-moon"></i>
-    </div>
+    <!-- ========== End style switciher start - for demo pirposs only ========== -->
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+    <!-- style switcher js -->
+    <script src="js/style-switcher.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/glassmorphism-animation.js"></script>
+    <script src="js/autoTypingAnimation.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/skills.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".contact-card"), {
+        max: 25,
+        speed: 400,
+      });
 
-    <h4>Theme Color</h4>
-    <div class="colors">
-      <span class="color-1" data-tilt data-tilt-scale="1.1" onclick="setActiveStyle('color-1')"></span>
-      <span class="color-2" data-tilt data-tilt-scale="1.1" onclick="setActiveStyle('color-2')"></span>
-      <span class="color-3" data-tilt data-tilt-scale="1.1" onclick="setActiveStyle('color-3')"></span>
-      <span class="color-4" data-tilt data-tilt-scale="1.1" onclick="setActiveStyle('color-4')"></span>
-      <span class="color-5" data-tilt data-tilt-scale="1.1" onclick="setActiveStyle('color-5')"></span>
-    </div>
-  </div>
-  <!-- ========== End style switciher start - for demo pirposs only ========== -->
-  <!-- main js -->
-  <script src="js/main.js"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js'></script>
-  <!-- style switcher js -->
-  <script src="js/style-switcher.js"></script>
-  <script src="js/animation.js"></script>
-  <script src="js/glassmorphism-animation.js"></script>
-  <script src="js/autoTypingAnimation.js"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script>
-    VanillaTilt.init(document.querySelectorAll(".contact-card"), {
-      max: 25,
-      speed: 400
-    });
+      VanillaTilt.init(document.querySelectorAll(".link-card"), {
+        max: 25,
+        speed: 400,
+      });
 
-    VanillaTilt.init(document.querySelectorAll(".link-card"), {
-      max: 25,
-      speed: 400
-    });
-
-    VanillaTilt.init(document.querySelectorAll(".card")), {
-      max: 25,
-      speed: 300
-    };
-  </script>
-</body>
-
+      VanillaTilt.init(document.querySelectorAll(".card")),
+        {
+          max: 25,
+          speed: 300,
+        };
+    </script>
+  </body>
 </html>
