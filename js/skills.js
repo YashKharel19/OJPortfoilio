@@ -6,6 +6,9 @@ const skills = [
   { name: "LUMION", level: 10 },
   { name: "BLUEBEAM", level: 6 },
   { name: "ETABS", level: 8 },
+  { name: "PHOTOSHOP", level: 8 },
+  { name: "INDESIGN", level: 10 },
+  { name: "ILLUSTRATOR", level: 10 },
 ];
 
 // Function to generate skill progress with dots
